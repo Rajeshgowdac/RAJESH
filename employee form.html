@@ -1,0 +1,107 @@
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: pink;  
+}  
+.container {  
+    padding: 50px;  
+  background-color: lightblue;  
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: orange;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+</style>  
+</head>  
+<body>  
+<form>  
+  <div class="container">  
+  <center>  <h1> Employee Registeration Form</h1> </center>  
+  <hr>  
+  <label> Employee ID </label>   
+<input type="text" name="firstname" placeholder= "EMP ID" size="15" required />
+  <label> Firstname </label>   
+<input type="text" name="firstname" placeholder= "Firstname" size="15" required />      
+<label> Lastname: </label>    
+<input type="text" name="lastname" placeholder="Lastname" size="15"required /> 
+<label> Start date : </label>    
+<input type="text" name="Start date" placeholder="Start date" size="15"required />  
+<label> End date : </label>    
+<input type="text" name="End date" placeholder="End date" size="15"required />  
+<label> Designation : </label>    
+<input type="text" name="Designation" placeholder="Designation" size="15"required />  
+<label> Department : </label>    
+<input type="text" name="Department" placeholder="Department" size="15"required />  
+<label> Reporting Manager : </label>    
+<input type="text" name="Reporting Manager" placeholder="Reporting Manager" size="15"required />  
+<label> DOB : </label>    
+<input type="text" name="DOB " placeholder="DOB" size="15"required />  
+<label> Status : </label>    
+<input type="text" name="Status" placeholder="Status" size="15"required />  
+<label> Blood Group : </label>    
+<input type="text" name="Blood Group" placeholder="Blood Group" size="15"required />  
+
+
+<div>  
+<!--<label>   
+Course :  
+</label>   
+  
+<select>  
+<option value="Course">Course</option>  
+<option value="BCA">BCA</option>  
+<option value="BBA">BBA</option>  
+<option value="B.Tech">B.Tech</option>  
+<option value="MBA">MBA</option>  
+<option value="MCA">MCA</option>  
+<option value="M.Tech">M.Tech</option>  
+</select>  
+</div> --> 
+<div>  
+<label>   
+Gender :  
+</label><br>  
+<input type="radio" value="Male" name="gender" checked > Male   
+<input type="radio" value="Female" name="gender"> Female   
+<input type="radio" value="Other" name="gender"> Other  
+  
+</div>  
+Current Address :  
+<textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+</textarea>   
+    <button type="submit" class="registerbtn">Submit</button>    
+</form>  
+</body>  
+</html>

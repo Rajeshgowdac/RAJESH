@@ -1,0 +1,88 @@
+education.html
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: pink;  
+}  
+.container {  
+    padding: 50px;  
+  background-color: lightblue;  
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: orange;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 33.1%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+</style>  
+</head>  
+<body>  
+<form>  
+  <div class="container">  
+  <center>  <h1> Educational Qualification </h1> </center>  
+  <hr>  
+  <div>  
+    <label>   
+    Course :  
+    </label>   
+      
+    <select>  
+    <option value="Course">Course</option>  
+    <option value="BCA">BCA</option>  
+    <option value="BBA">BBA</option>  
+    <option value="B.Tech">B.Tech</option>  
+    <option value="MBA">MBA</option>  
+    <option value="MCA">MCA</option>  
+    <option value="M.Tech">M.Tech</option>  
+    </select>  
+    </div>
+    <div>  
+    <label>   
+    <label> Start date : </label>    
+        <input type="text" name="Start date" placeholder="Start date" size="15"required />  
+        <label> End date : </label>    
+        <input type="text" name="End date" placeholder="End date" size="15"required /> 
+<label> Istitution : </label>    
+<input type="text" name="Istitution" placeholder="Istitution" size="15"required />  
+<label> Parcentage : </label>    
+<input type="text" name="Percentage" placeholder="Parcentage" size="15"required />  
+Current Address :  
+<textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+</textarea>  
+    <button type="previous" class="registerbtn" >Previous</button>
+    <button type=" Save" class="registerbtn" > Save</button>
+        <button type="submit" class="registerbtn" >Submit</button>
+</form>  
+</body>  
+</html>
